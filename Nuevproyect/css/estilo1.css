@@ -1,0 +1,93 @@
+#conpri{
+  margin:60px;
+}
+#contHeader{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.escudo{
+  position: absolute; 
+  background-image: url('../escudo.png');
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 0px;
+  background-size: 250px 150px;
+}
+
+.derecha{
+position: absolute;
+right: 0;
+background: url('../derecha.png') ;
+height: 180px;
+width: 200px;
+background-repeat: no-repeat;
+}
+
+#contenedor2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  position:relative;
+}
+
+.confiar{
+  background-image: url('../confiar.png');
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 100%;
+}
+.megafono{
+  background-image: url('../megafono.png');
+  background-repeat: no-repeat; 
+  background-position-x: center;
+  height: 180px;
+  width: 100%;
+}
+.idea{
+  background-image: url('../idea.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  height: 180px;
+  width: 100%;
+}
+
+
+h1{
+    font-size:  80px;
+    text-align: center;
+}
+
+h4{
+  text-align: center;
+    font-size: 25px;
+}
+h5{
+  text-align: justify;    
+  font-size:  18px;
+}
+
+#confor{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction:row;
+  position: relative;
+}
+
+#opcion1{
+text-align: left;
+}
+
+#opcion2{
+  text-align: center;
+}
+
+#opcion3{
+}

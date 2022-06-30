@@ -90,4 +90,32 @@ text-align: left;
   text-align: center;
 }
 
+
+#formularioRadioButtom{
+  width: 100%;
+  display: flex;
+}
+
+/* --- Radio Buttons | Buz Header --- */
+
+#formularioRadioButtom #radio1{
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+
+#formularioRadioButtom #radio2{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#formularioRadioButtom #radio3{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+/* --- FIN Radio Buttons | Buz Header --- */
+
 /* Aqui estuvo alberto */

@@ -37,22 +37,23 @@
 </div>
 
 <div class= "container-fluid" style ="background-color: Pink;" id="confor">
-    <form method= "post"   form action="enviar.php" >
+    <form method= "post"   form action="enviar.php" id="formularioRadioButtom">
   
- <div class="form-check form-check-inline">
+ <div class="form-check form-check-inline" id="radio1">
   <input class="radiobox" type = "radio" id="opcion1" name="opcion"  value="Felicitaciones"  required>
   <label class="form-check-label" >Felicitación</label>
   </div>
 
- <div class="form-check form-check-inline" >
+ <div class="form-check form-check-inline"  id="radio2">
  <input class="radiobox" type="radio" id="opcion2" name="opcion"  value="Quejas"  required>
  <label class="form-check-label">Queja</label>
  </div>
  
-<div class="form-check form-check-inline" >
+<div class="form-check form-check-inline" id="radio3" >
 <input class="radiobox" type = "radio"  id= "opcion3" name="opcion" value="Sugerencias"  required>
 <label class="form-check-label" >Sugerencia</label>
 </div>
+
 </div>
 
 

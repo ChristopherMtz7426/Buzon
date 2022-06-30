@@ -50,6 +50,7 @@ background-repeat: no-repeat;
   height: 180px;
   width: 100%;
 }
+
 .idea{
   background-image: url('../idea.png');
   background-repeat: no-repeat;
@@ -89,5 +90,4 @@ text-align: left;
   text-align: center;
 }
 
-#opcion3{
-}
+/* Aqui estuvo alberto */
